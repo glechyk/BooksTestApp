@@ -5,6 +5,7 @@ plugins {
     alias(libs.plugins.firebase.crashlitics)
     alias(libs.plugins.ksp)
     alias(libs.plugins.hilt.android.plugin)
+    alias(libs.plugins.kotlin.serialization)
 }
 
 android {
@@ -76,6 +77,9 @@ dependencies {
     ksp(libs.hilt.compiler)
 
     implementation(libs.coil)
+    implementation(libs.kotlinx.serialization.json)
+
+    implementation(libs.androidx.foundation)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

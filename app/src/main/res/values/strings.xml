@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">BooksTestApp</string>
+    <string name="splash_title">Book App</string>
+    <string name="splash_subtitle">Welcome to Book App</string>
+    <string name="main_title">Library</string>
+    <string name="details_readers">Readers</string>
+    <string name="details_likes">Likes</string>
+    <string name="details_quotes">Quotes</string>
+    <string name="details_genre">Genre</string>
+    <string name="details_read_now">Read Now</string>
+    <string name="details_summary">Summary</string>
+    <string name="details_recommendations">You will also like</string>
 </resources>
